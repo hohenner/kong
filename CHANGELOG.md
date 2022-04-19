@@ -140,6 +140,11 @@
 
 ### Additions
 
+#### Core
+
+- Added `path` and `query_arg` options to upstream `hash_on` for load balancing.
+  [8701](https://github.com/Kong/kong/pull/8701)
+
 #### Plugins
 
 - **Zipkin**: add support for including HTTP path in span name
