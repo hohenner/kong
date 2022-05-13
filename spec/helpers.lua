@@ -2800,9 +2800,9 @@ end
 -- @field mock_upstream_stream_port
 -- @field mock_upstream_stream_ssl_port
 -- @field mock_grpc_upstream_proto_path
--- @field grpcbin_host The host for grpcbin service
--- @field grpcbin_port The port (SSL disabled) for grpcbin service
--- @field grpcbin_ssl_port The port (SSL enabled) for grpcbin service
+-- @field grpcbin_host The host for grpcbin service, it can be set by env KONG_SPEC_TEST_GRPCBIN_HOST.
+-- @field grpcbin_port The port (SSL disabled) for grpcbin service, it can be set by env KONG_SPEC_TEST_GRPCBIN_PORT.
+-- @field grpcbin_ssl_port The port (SSL enabled) for grpcbin service it can be set by env KONG_SPEC_TEST_GRPCBIN_SSL_PORT.
 -- @field grpcbin_url The URL (SSL disabled) for grpcbin service
 -- @field grpcbin_ssl_url The URL (SSL enabled) for grpcbin service
 -- @field redis_host The hostname for a Redis instance if available. Port should be `6379`.
