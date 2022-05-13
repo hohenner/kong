@@ -142,8 +142,8 @@
 
 #### Core
 
-- Added `path` and `query_arg` options to upstream `hash_on` for load balancing.
-  [8701](https://github.com/Kong/kong/pull/8701)
+- Added `path`, `uri_capture`, and `query_arg` options to upstream `hash_on`
+  for load balancing. [8701](https://github.com/Kong/kong/pull/8701)
 
 #### Plugins
 
