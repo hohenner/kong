@@ -92,6 +92,7 @@
 - The HTTP-log plugin `headers` field now only takes a single string per header name,
   where it previously took an array of values
   [#6992](https://github.com/Kong/kong/pull/6992)
+- The log-serializers plugin has been removed. If you have a custom plugin that depended on it, you will need to copy the old plugins/log-serializers/basic.lua file in your custom plugin before updating to 3.0.
 
 ### Deprecations
 
