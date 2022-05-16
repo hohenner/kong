@@ -94,7 +94,6 @@ pipeline {
                         sh 'make RESTY_IMAGE_BASE=amazonlinux RESTY_IMAGE_TAG=2 release'
                         sh 'make RESTY_IMAGE_BASE=centos      RESTY_IMAGE_TAG=7 release'
                         sh 'make RESTY_IMAGE_BASE=centos      RESTY_IMAGE_TAG=8 release'
-                        sh 'make RESTY_IMAGE_BASE=rhel        RESTY_IMAGE_TAG=7 release'
                         sh 'make RESTY_IMAGE_BASE=rhel        RESTY_IMAGE_TAG=8 release'
                     }
                 }
